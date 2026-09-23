@@ -8,3 +8,6 @@ trl>=0.9
 sentencepiece>=0.2
 # CUDA(NVIDIA GPU) 환경에서만 QLoRA(4bit)를 쓰려면 아래 추가 설치:
 # bitsandbytes>=0.43   (MPS/CPU에서는 지원 불안정 — 설치하지 마세요)
+
+# 테스트 (scripts/scoring.py 채점 로직 검증용, 모델 의존성 없음)
+pytest>=8.0
