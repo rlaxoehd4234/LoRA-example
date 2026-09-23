@@ -1,0 +1,10 @@
+# Qwen2.5-1.5B LoRA SFT — 8GB RAM 목표 구성
+torch>=2.2
+transformers>=4.44
+accelerate>=0.33
+peft>=0.12
+datasets>=2.20
+trl>=0.9
+sentencepiece>=0.2
+# CUDA(NVIDIA GPU) 환경에서만 QLoRA(4bit)를 쓰려면 아래 추가 설치:
+# bitsandbytes>=0.43   (MPS/CPU에서는 지원 불안정 — 설치하지 마세요)

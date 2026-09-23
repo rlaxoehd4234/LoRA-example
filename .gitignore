@@ -1,0 +1,9 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+models/hr-qwen-lora/*
+!models/hr-qwen-lora/.gitkeep
+outputs/*
+!outputs/.gitkeep
+.DS_Store
